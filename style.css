@@ -95,7 +95,7 @@ ul {
    
 }
 
-/* .btn{ 
+ .btn{ 
      border:2px solid black;
     padding: 15px 10px;
     border-radius: 4px;
@@ -106,36 +106,6 @@ ul {
     
 }
 
-span { 
-    width: 0;
-    height: 100%;
-    background: #000;
-    top:0;
-    left:0;
-    position: absolute;
-    z-index: -1;
-    transition: 0.5s;
-   
-}
-
-.btn:hover span {
-    width: 100%;
-} */
-.btn {
-    display: inline-block;
-    padding: 12px 30px;
-    background-color: transparent;
-    color: #333;
-    text-decoration: none;
-    border: 2px solid #333;
-    border-radius: 4px;
-    font-weight: 600;
-    transition: all 0.5s ease;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Hover Effect */
 .btn:hover {
     color: white;
     border-color: #e8972e;
@@ -476,7 +446,7 @@ p{
     }
     
 
-    .nav-links .btn{
+    .nav-links .btn-us{
         margin-top: 10px;
         width: auto;
         display: inline-block;
@@ -550,9 +520,9 @@ p{
         background-color: rgba(255,255,255,0.1);
     }
 
-    .nav-links .btn {
+    .nav-links .btn-us{
         margin: 15px 0 0;
-        width: 80%;
+        width: auto;
         text-align: center;
         border-color: white;
         color: white;
@@ -560,7 +530,7 @@ p{
 
    
 
-    .nav-links .btn:hover {
+    .nav-links .btn-us:hover {
         color: #333;
     }
 
